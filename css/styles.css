@@ -45,7 +45,7 @@ h1 {
 }
 
 .motto {
-	font-size: 150%;
+	font-size: 120%;
 	text-align: right;
 	color: #7A7066;
 	margin-top: 1em;
@@ -68,6 +68,13 @@ nav li {
 	display: inline-block;
 }
 
+nav a { 
+    display: inline-block; 
+    padding: 10px; 
+    color: #FFF; 
+    font-weight: bold; 
+}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
@@ -86,7 +93,8 @@ a:hover, a:focus, a:active {
 }
 
 footer {
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 40px 0px;
+	padding: 20px 0px 0px 0px;
 	border-style: solid;
 	border-top-width: thin;
 	border-color: #7A7066;
