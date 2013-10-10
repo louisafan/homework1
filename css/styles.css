@@ -2,14 +2,16 @@
 
 body {
 	font-family: 'Century Gothic', 'Calibri', sans-serif;
-	font-size: 11x;
-	background-color: #e1ddd9;
+	font-size: 11px;
+	background: url(../img/pizza1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-color: #EBECE4;
 }
 
 .main {
 	margin: 0px 190px 0px 190px;
-	border-left: 2px solid #564b47;
-	border-right: 2px solid #564b47;
+	border-left: 2px solid #564B47;
+	border-right: 2px solid #564B47;
 	padding: 0px;
 	background-color: #ffffff;
 }
@@ -18,7 +20,7 @@ body {
 	position: absolute;
 	left: 0px;
 	width: 190px;
-	color: #564b47;
+	color: #564B47;
 	margin: 0px; 
 	padding: 0px;
 }
@@ -27,13 +29,13 @@ body {
 	position: absolute;
 	right: 0px;
 	width: 190px;
-	color: #564b47;
+	color: #564B47;
 	margin: 0px; 
 	padding: 0px;
 }
 
 nav ul { 
-    background-color: #D74710; 
+    background-color: #7A7066; 
     border-radius: 5px;
 } 
   
@@ -51,18 +53,18 @@ nav a {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #F1ABA3;
 }
 
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #A46A68;
 }
 
 a:hover, a:focus, a:active { 
-	text-decoration: underline, highlight; 
-	background-color: #9685BA;
+	text-decoration: underline; 
+	background-color: #F97175;
 }
 
 p {
