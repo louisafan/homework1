@@ -28,7 +28,7 @@ body {
 	width: 190px;
 }
 
-.logo-tight {
+.logo {
 	float: left;
 	padding: 10px 0px 10px 0px;
 }
@@ -64,7 +64,8 @@ nav ul {
 	border-radius: 5px;
 }
 
-nav li { 
+nav li {
+	text-decoration: bold;
 	display: inline-block;
 	padding: 10px;
 }
