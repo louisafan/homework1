@@ -1,9 +1,78 @@
 @import url(reset.css);
 
 body {
+	font-family: 'Century Gothic', 'Calibri', sans-serif;
+	font-size: 11x;
+	background-color: #e1ddd9;
+}
 
+.main {
+	margin: 0px 190px 0px 190px;
+	border-left: 2px solid #564b47;
+	border-right: 2px solid #564b47;
+	padding: 0px;
+	background-color: #ffffff;
+}
+
+.left {
+	position: absolute;
+	left: 0px;
+	width: 190px;
+	color: #564b47;
+	margin: 0px; 
+	padding: 0px;
+}
+
+.right {
+	position: absolute;
+	right: 0px;
+	width: 190px;
+	color: #564b47;
+	margin: 0px; 
+	padding: 0px;
+}
+
+nav ul { 
+    background-color: #D74710; 
+    border-radius: 5px;
+} 
+  
+nav li { 
+    display: inline-block;
+} 
+  
+nav a { 
+    display: inline-block; 
+    padding: 10px; 
+    color: #FFF; 
+    font-weight: bold; 
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline, highlight; 
+	background-color: #9685BA;
 }
 
 p {
-	
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 150%;
+	text-transform: uppercase;
+	text-align: right;
+	color: #564b47;
+	background-color: #90897a;
 }

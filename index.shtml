@@ -6,25 +6,13 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
-		<header>
-			<h1>Dawg Pizza</h1>
-			<h2>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</h2>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Menu</a></li>
-					<li><a href="#">About Us</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section>
+		<!--#include virtual="inc/header.html" -->
+		<section class="main">
 			<p>Our business hours: 10:00am to 11:00pm, Monday through Saturday.</p>
 			<p>Our phone number (206-555-1212) and address (4306 University Way NE, Seattle, WA 98105)</p>
 			<p><a href="mailto:dawgpizzaseattle@gmail.com">Email Us</a></p>
 			<p>A link to our twitter feed (@DawgPizzaSea)</p>
 		</section>
-		<footer>
-
-		</footer>
+		<!--#include virtual="inc/footer.html" -->
 	</body>
 </html>
