@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Century Gothic', 'Calibri', sans-serif;
-	font-size: 11px;
+	font-size: 14px;
 	background: url(../img/pizza1.jpg) no-repeat center center fixed;
 	background-size: cover;
 	background-color: #EBECE4;
@@ -10,44 +10,62 @@ body {
 
 .main {
 	margin: 0px 190px 0px 190px;
-	border-left: 2px solid #564B47;
-	border-right: 2px solid #564B47;
-	padding: 0px;
-	background-color: #ffffff;
+	border: 2px solid #7A7066;
+	padding: 20px;
+	background-color: #FFF;
 }
 
+/* left and right menu bars to preempt for future assignments */
 .left {
 	position: absolute;
 	left: 0px;
 	width: 190px;
-	color: #564B47;
-	margin: 0px; 
-	padding: 0px;
 }
 
 .right {
 	position: absolute;
 	right: 0px;
 	width: 190px;
-	color: #564B47;
-	margin: 0px; 
-	padding: 0px;
+}
+
+.logo-tight {
+	float: left;
+	padding: 10px 0px 10px 0px;
+}
+
+h1 {
+	font-size: 200%;
+	text-transform: uppercase;
+	text-align: right;
+	color: #7A7066;
+	background-color: #EBECE4;
+	margin-top: 3em;
+	padding: 5px 5px 5px 0px;
+	border-radius: 5px;
+}
+
+.motto {
+	font-size: 150%;
+	text-align: right;
+	color: #7A7066;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 5px 5px 5px 0px;
+	background-color: #EBECE4;
+	border-radius: 5px;
+}
+
+p {
+	margin-bottom: 1em;
 }
 
 nav ul { 
-    background-color: #7A7066; 
-    border-radius: 5px;
-} 
-  
+	background-color: #EBECE4; 
+	border-radius: 5px;
+}
+
 nav li { 
-    display: inline-block;
-} 
-  
-nav a { 
-    display: inline-block; 
-    padding: 10px; 
-    color: #FFF; 
-    font-weight: bold; 
+	display: inline-block;
 }
 
 a:link { 
@@ -67,15 +85,11 @@ a:hover, a:focus, a:active {
 	background-color: #F97175;
 }
 
-p {
-	margin-bottom: 1em;
-}
-
-h1 {
-	font-size: 150%;
-	text-transform: uppercase;
-	text-align: right;
-	color: #564b47;
-	background-color: #90897a;
-	margin-top: 3em;
+footer {
+	margin: 0px 0px 20px 0px;
+	border-style: solid;
+	border-top-width: thin;
+	border-color: #7A7066;
+	font-size: 80%;
+	font-style: italic;
 }
