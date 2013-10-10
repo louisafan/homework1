@@ -4,10 +4,13 @@
 		<title>Dawg Pizza</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="img/logo-small.png">
+		<meta name="author" content="loufan">
 	</head>
-	<body>
+	<body class="page-main">
 		<section class="main">
 			<!--#include virtual="inc/header.html" -->
+			<p></p>
 			<p>Our business hours are 10:00am to 11:00pm, Monday through Saturday.</p>
 			<p>Call us to make a reservation today: 206-555-1212 or, stop by: 4306 University Way NE, Seattle, WA 98105</p>
 			<p><a href="mailto:dawgpizzaseattle@gmail.com">Email us</a></p>

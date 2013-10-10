@@ -4,19 +4,20 @@
 		<title>Dawg Pizza</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="shortcut icon" href="img/logo-small.png">
+        <meta name="author" content="loufan">
 	</head>
-	<body>
+	<body class="page-menu">
         <section class="main">
             <!--#include virtual="inc/header.html" -->
-
-            <h3>Pizzas:</h3>
+            <h2>Pizzas:</h2>
+            <h3>All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</h3>
             <dl>
                 <dt>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:</dt>
                     <dd>Small (12")</dd>
                     <dd>Medium (14")</dd>
                     <dd>Large (17")</dd>
             </dl>
-            <h3>All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</h3>
             <h3>Meat Pies:</h3>
             <dl>
                 <dt>Classic Pepperoni</dt>
@@ -43,18 +44,15 @@
                 <dt>Purple Monster</dt>
                     <dd>Roasted Eggplant and Cabbage stir fried in sesame oil on a rich Plum Sauce.  $11/$14/$17</dd>
             </dl>
-            <h3>Drinks:</h3>
-            <li>
+            <h2>Drinks:</h2>
                 <menu>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can ($4)</menu>
                 <menu>Rainier Beer by the can ($4)</menu>
                 <menu>House Red Wine by the glass or bottle ($10/$40)</menu>
-            </li>
-            <h3>Dessert:</h3>
-            <li>
+            <h2>Dessert:</h2>
                 <menu>Chocolate Gelato ($8)</menu>
                 <menu>Lemon Sorbet ($7)</menu>
                 <menu>Ricotta Cheese Cake ($10)</menu>
-            </li>
+            <p></p>
             <!--#include virtual="inc/footer.html" -->
         </section>
 	</body>

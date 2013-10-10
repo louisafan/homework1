@@ -4,8 +4,10 @@
 		<title>Dawg Pizza</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="img/logo-small.png">
+		<meta name="author" content="loufan">
 	</head>
-	<body>
+	<body class="page-about">
 		<section class="main">
 			<!--#include virtual="inc/header.html" -->
 			<h2>Our Story:</h2>
