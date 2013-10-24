@@ -17,7 +17,7 @@
 			<!--#include virtual="inc/header.html" -->
 
 			<div class="video">
-				<p><iframe width="640" height="480" src="//www.youtube.com/embed/HWL__9yDu8I?rel=0" frameborder="0" allowfullscreen></iframe></p>
+				<p><iframe width="640" height="480" src="//www.youtube.com/embed/HWL__9yDu8I?rel=0" allowfullscreen></iframe></p>
 			</div>
 
 			<p>Our business hours are 10:00am to 11:00pm, Monday through Saturday.</p>
