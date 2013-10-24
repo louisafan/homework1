@@ -19,7 +19,7 @@
 .container {
 	background: rgba(255,255,255,0.7);
 	border-radius: 5px;
-	padding-top: 150px;
+	padding-top: 100px;
 	padding-bottom: 150px;
 }
 
@@ -31,9 +31,7 @@
 
 .navbar-fixed-bottom {
 	background: rgba(255,255,255,0.7);
-	position: relative;
 	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
 	clear: both;
 	padding: 1em;
 } 
