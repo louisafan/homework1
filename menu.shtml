@@ -26,7 +26,7 @@
 			</dl>
 
 			<div class="row marketing">
-				<div class="col-lg-6">
+				<div class="col-lg-4">
 					<h3>Meat Pies:</h3>
 					<dl>
 						<dt>Classic Pepperoni</dt>
@@ -42,7 +42,7 @@
 					</dl>
 				</div>
 
-				<div class="col-lg-6">
+				<div class="col-lg-4">
 					<h3>Vegetarian Pies:</h3>
 					<dl>
 						<dt>Margherita</dt>
@@ -58,7 +58,7 @@
 					</dl>
 				</div>
 
-				<div class="col-lg-6">
+				<div class="col-lg-4">
 					<h3>Drinks:</h3>
 					<ul>
 						<li>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can ($4)</li>
